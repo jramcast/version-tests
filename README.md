@@ -4,6 +4,7 @@ https://docs.openstack.org/pbr/3.1.1/index.html#usage
 
 https://stackoverflow.com/questions/56592735/how-to-set-the-production-version-for-a-python-package-using-pbr
 
+https://stackoverflow.com/questions/458550/standard-way-to-embed-version-into-python-package
 ## Tools
 
 https://docs.openstack.org/pbr/3.1.1/index.html#usage
