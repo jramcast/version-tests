@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'make build'
+                sh 'python setup.py sdist'
             }
         }
         stage('Deploy') {
