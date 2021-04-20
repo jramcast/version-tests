@@ -26,7 +26,7 @@ pipeline {
         stage('Deploy PROD') {
             when { tag "*.*.*" }
             steps {
-                echo 'Deploying...'
+                echo 'Deploying...' 
             }
         }
         // stage('Create release on Github and upload artifacts') {
