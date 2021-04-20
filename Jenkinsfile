@@ -23,6 +23,12 @@ pipeline {
                 echo 'Deploying...'
             }
         }
+        stage('Deploy PROD') {
+            when { tag "*.*.*" }
+            steps {
+                echo 'Deploying...'
+            }
+        }
         // stage('Create release on Github and upload artifacts') {
         //     when { tag "v*" }
 
